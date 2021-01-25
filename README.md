@@ -76,3 +76,11 @@ sudo npm install -g yarn
 
 ## Installing git
 sudo apt install git-all
+
+## Setting up .ssh
+Run commands below in bash  
+
+ssh-keygen -t ed25519 -C "your_email@example.com"  
+ssh-keygen -t rsa 
+
+After these steps copy id_rsa.pub to your github account  
