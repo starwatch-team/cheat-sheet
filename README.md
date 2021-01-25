@@ -67,3 +67,12 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ## Installing node 
 nvm install v%nodeversion%
+
+## Installing npm 
+npm install npm@latest -g
+
+## Installing yarn
+sudo npm install -g yarn
+
+## Installing git
+sudo apt install git-all
