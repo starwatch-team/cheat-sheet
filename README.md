@@ -13,7 +13,9 @@ git checkout --track origin/%branchname%
 
 ### Pulling master into development branch
 git checkout %branchname%    # gets you on development branch  
+  
 git fetch origin        # gets you up to date with origin  
+  
 git merge origin/master  
 
 ## Pushing specific branch
