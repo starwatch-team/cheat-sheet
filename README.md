@@ -11,6 +11,11 @@ Attaching images to website while using GitHub Pages: https://www.elharony.com/i
 ### Pulling specific branch
 git checkout --track origin/%branchname%
 
+### Pulling master into development branch
+git checkout %branchname%    # gets you on development branch
+git fetch origin        # gets you up to date with origin
+git merge origin/master
+
 ## Pushing specific branch
 git push --set-upstream origin %branchname%
 
