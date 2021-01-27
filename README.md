@@ -107,4 +107,4 @@ Run commands below in bash
 ssh-keygen -t ed25519 -C "your_email@example.com"  
 ```
 
-After these steps copy ```sh id_ed25519.pub ``` to your github account  
+After these steps copy `id_ed25519.pub` to your github account  
