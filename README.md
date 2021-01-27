@@ -66,7 +66,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 
 ## Installing node 
+```sh
 nvm install v%nodeversion%
+```
 
 ## Installing npm 
 ```sh
@@ -97,4 +99,4 @@ Run commands below in bash
 ssh-keygen -t ed25519 -C "your_email@example.com"  
 ```
 
-After these steps copy ```sh id_ed25519.pub ``` to your github account  
+After these steps copy ```shid_ed25519.pub``` to your github account  
