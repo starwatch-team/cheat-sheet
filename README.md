@@ -69,7 +69,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install v%nodeversion%
 
 ## Installing npm 
+```sh
 npm install npm@latest -g
+```
+
 
 ## Installing yarn
 ```sh
@@ -78,16 +81,20 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 
 Restart terminal and test with command below
-
+```sh
 yarn --version
+```
 
 ## Installing git
+```sh
 sudo apt install git-all
+```
 
 ## Setting up .ssh
 Run commands below in bash  
 
+```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"  
-ssh-keygen -t rsa 
+```
 
-After these steps copy id_rsa.pub to your github account  
+After these steps copy ```sh id_ed25519.pub ``` to your github account  
