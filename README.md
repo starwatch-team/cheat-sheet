@@ -9,23 +9,33 @@ Attaching images to website while using GitHub Pages: https://www.elharony.com/i
 ## Github Branches
 
 ### Pulling specific branch
+```sh
 git checkout --track origin/%branchname%
+```
 
 ### Pulling master into development branch
+```sh
 git checkout %branchname%    # gets you on development branch  
   
 git fetch origin        # gets you up to date with origin  
   
 git merge origin/master  
+```
 
 ## Pushing specific branch
+```sh
 git push --set-upstream origin %branchname%
+```
 
 ## Deleting branch locally
+```sh
 git branch -d localBranchName
+```
 
 ## Deleting branch remotely
+```sh
 git push origin --delete remoteBranchName
+```
 
 # Tailwind 
 
@@ -75,12 +85,10 @@ nvm install v%nodeversion%
 npm install npm@latest -g
 ```
 
-
 ## Installing yarn
 ```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
-
 
 Restart terminal and test with command below
 ```sh
@@ -99,4 +107,4 @@ Run commands below in bash
 ssh-keygen -t ed25519 -C "your_email@example.com"  
 ```
 
-After these steps copy ```shid_ed25519.pub``` to your github account  
+After these steps copy ```sh id_ed25519.pub ``` to your github account  
