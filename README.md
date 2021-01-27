@@ -72,7 +72,11 @@ nvm install v%nodeversion%
 npm install npm@latest -g
 
 ## Installing yarn
-sudo npm install -g yarn
+curl -o- -L https://yarnpkg.com/install.sh | bash
+
+Restart terminal and test with command below
+
+yarn --version
 
 ## Installing git
 sudo apt install git-all
