@@ -72,7 +72,10 @@ nvm install v%nodeversion%
 npm install npm@latest -g
 
 ## Installing yarn
+```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash
+```
+
 
 Restart terminal and test with command below
 
