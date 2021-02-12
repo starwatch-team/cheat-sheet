@@ -57,6 +57,19 @@ This will generate classes like `<bg-regal-blue>` in addition to all of Tailwind
 
 # Machine Setup
 
+## Installing WSL
+1. Open Windows PowerShell as Administrator and run command below, then reboot your PC.
+```sh
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+2.After rebooting your computer, go to Microsoft Store and install Ubuntu.
+![ubuntu image](https://www.computerhope.com/issues/pictures/wsl-store-2019.jpg)
+![ubuntu image](https://www.computerhope.com/issues/pictures/installwsl-store-get-ubuntu.jpg)
+
+3.When WSL is installed, head to Visual Studio Code, press Crtl+Shift+P and type:`shell`
+
+4.Now you can select WSL terminal as your default shell
 ## Installing nvm
 
 To **install** or **update** nvm, you should run scripts below:
