@@ -64,9 +64,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 
 2. After rebooting your computer, go to Microsoft Store and install Ubuntu.
-![ubuntu image](https://www.computerhope.com/issues/pictures/wsl-store-2019.jpg)
-
-![ubuntu image](https://www.computerhope.com/issues/pictures/installwsl-store-get-ubuntu.jpg)
+![ubuntu image](https://www.computerhope.com/issues/pictures/wsl-store-2019.jpg)![ubuntu image](https://www.computerhope.com/issues/pictures/installwsl-store-get-ubuntu.jpg)
 
 3. When WSL is installed, head to Visual Studio Code, press Crtl+Shift+P and type:`shell`
 
