@@ -8,6 +8,11 @@ Attaching images to website while using GitHub Pages: https://www.elharony.com/i
 
 ## Github Branches
 
+### Merging master into development branch 
+```sh
+git merge %branchname% master
+```
+
 ### Pulling specific branch
 ```sh
 git checkout --track origin/%branchname%
