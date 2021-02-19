@@ -1,6 +1,3 @@
-# Github Tricks
-Section all about github use
-
 ## Table of contents
 1. [Github Pages](https://github.com/starwatch-team/cheat-sheet#github-pages)
 2. [Tailwind](https://github.com/starwatch-team/cheat-sheet#tailwind)
