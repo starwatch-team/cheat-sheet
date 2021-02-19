@@ -125,3 +125,41 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 After these steps copy `id_ed25519.pub` to your github account  
+
+# Setting up your Visual Studio Code to code in C++
+
+1. Open VSCode and search for C/C++ extension.
+![ubuntu image](https://code.visualstudio.com/assets/docs/languages/cpp/search-cpp-extension.png)
+
+2. Check if you have your linux compiler installed
+
+```sh
+g++ --version
+```
+
+3. Now you can start your project, by running commands below.
+
+```sh
+mkdir HelloWorld
+cd HelloWorld
+code .
+```
+
+4. Add your source file called `%name%.cpp`, and paste starting code.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello World" << endl;
+}
+```
+
+5. Now you can build your project by pressing `Crtl+Shift+B` or by clicking on the option below
+![ubuntu image](https://code.visualstudio.com/assets/docs/languages/cpp/run-build-task.png)
+
+6. From a command prompt or a new VS Code Integrated Terminal, you can now run your program by typing `.\helloworld`.
+![ubuntu image](https://code.visualstudio.com/assets/docs/languages/cpp/run-hello-world.png)
