@@ -1,6 +1,10 @@
 # Github Tricks
 Section all about github use
 
+## Table of contents
+
+[I'm an inline-style link with title](https://github.com/starwatch-team/cheat-sheet#tailwind "Tailwind")
+
 # Github pages
 
 ### Github Pages - images not working
