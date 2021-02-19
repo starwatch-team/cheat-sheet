@@ -2,8 +2,10 @@
 Section all about github use
 
 ## Table of contents
-
-[I'm an inline-style link with title](https://github.com/starwatch-team/cheat-sheet#tailwind "Tailwind")
+1. [Github Pages](https://github.com/starwatch-team/cheat-sheet#github-pages)
+2. [Tailwind](https://github.com/starwatch-team/cheat-sheet#tailwind)
+3. [Machine Setup](https://github.com/starwatch-team/cheat-sheet/blob/main/README.md#machine-setup)
+4. [Setting up your Visual Studio Code to code in C++](https://github.com/starwatch-team/cheat-sheet/blob/main/README.md#setting-up-your-visual-studio-code-to-code-in-c)
 
 # Github pages
 
