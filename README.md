@@ -127,7 +127,14 @@ Run commands below in bash
 ssh-keygen -t ed25519 -C "your_email@example.com"  
 ```
 
-After these steps copy `id_ed25519.pub` to your github account  
+Then configure your email and name
+
+```sh
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+After these steps copy `id_ed25519.pub` to your github account. The file is located in `/home/AccountName/.ssh/id_ed25519.pub`
 
 # Setting up your Visual Studio Code to code in C++
 
