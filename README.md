@@ -37,7 +37,7 @@ git push --set-upstream origin %branchname%
 
 ## Deleting branch locally
 ```sh
-git branch -d localBranchName
+git branch -D localBranchName
 ```
 
 ## Deleting branch remotely
